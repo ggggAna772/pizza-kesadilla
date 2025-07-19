@@ -1,0 +1,553 @@
+/* Fundal imagine pizza pe toată pagina */
+body {
+  background-image: url("https://t3.ftcdn.net/jpg/02/70/25/12/360_F_270251205_XjSPYpjb0Gtny1ap8oaIFQ22yIKmU3yr.jpg"); /* sau link direct */
+  background-size: cover;         /* Fundalul acoperă tot ecranul */
+  background-repeat: no-repeat;   /* Nu se repetă */
+  background-position: center;    /* Se centrează pe orice ecran */
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+  color: white; /* scrisul alb să se vadă peste fundal */
+  text-shadow: 1px 1px 5px black; /* să fie mai lizibil */
+
+
+/* Stil pentru titlu, dacă ai un <h1> */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 3rem;
+    color: hsl(0, 0%, 0%); 
+    text-shadow: 1px 1px 5px black; /* umbră pentru lizibilitate */
+    -webkit-text-stroke: 2px black; /* contur negru */
+    
+  
+  }
+
+/* Stil pentru orice paragraf <p> */
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: lab(59% 32.08 65.18 / 0.366); /* fundal transparent pt text */
+  padding: 15px;
+  border-radius: 10px;
+height: 3px;
+color: hwb(0 0% 100%);
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 3rem;
+  color: hsl(0, 0%, 0%);
+
+}
+h3 {
+  
+  font-size: 2rem;
+  margin-top: 20px;
+  color: hwb(9 4% 42% / 0.945);
+    -web-text-stroke: 2px black; /* contur negru */
+    text-shadow: 1px 1px 5px #000000; /* umbră pentru lizibilitate */
+    text-align: center;
+    text-decoration: underline; /* subliniere */
+}
+li {
+  
+  color: hwb(30 6% 33%);
+  
+  
+}
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 30px;
+  color: lch(47.89% 56.68 70.95);
+    -webkit-text-stroke: 1px black; /* contur negru */
+    text-shadow: 1px 1px 5px black; /* umbră pentru lizibilitate */
+}
+button {
+  background-color: hsl(36, 86%, 42%); /* culoare de fundal */
+  color: white; /* text alb */
+  border: none; /* fără bordură */
+  padding: 10px 20px; /* spațiere interioară */
+  font-size: 1.2rem; /* mărime text */
+background-color: brown;
+  cursor: pointer; /* cursor pointer la hover */
+  
+}
+button:hover {
+  background-color: hsl(36, 86%, 52%); /* culoare mai deschisă la hover */
+  text-align: center;
+}
+body.pagina-pizza {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141349.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+.continut {
+  background-color: rgba(0, 0, 0, 0.6); /* fundal semi-transparent peste imagine */
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e5533d;
+}
+body.pagina-pizza,
+body.pagina-burgher {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+body.pagina-pizza {
+  background-image: url("https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141349.jpg");
+}
+
+body.pagina-burgher {
+  background-image: url("https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141349.jpg");
+}
+
+.continut {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e5533d;
+}
+body.pagina-salata {
+  background-image: url("https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141349.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.continut {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #2e7d32;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #333;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background-color: #66bb6a;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: back
+  body.pagina-bauturi {
+  background-image: url("https://www.shutterstock.com/image-photo/refreshing-drink-made-lime-slices-260nw-2469249155.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.continut {
+  background-color: rgba(255, 255, 255, 0.9);
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 36px;
+  color: #4e342e;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+li {
+  font-size: 18px;
+  margin: 8px 0;
+  color: #333;
+}
+
+button {
+  background-color: #d84315;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #bf360c;
+}
+body.pagina-desert {
+  background-image: url("https://cdn.pixabay.com/photo/2022/01/02/10/04/papanasi-6909255_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.continut {
+  background-color: rgba(255, 255, 255, 0.92);
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  color: #8e44ad;
+  margin-bottom: 30px;
+}
+
+.produs {
+  margin-bottom: 40px;
+}
+
+.produs h3 {
+  font-size: 24px;
+  margin: 10px 0 5px;
+  color: #5d4037;
+}
+
+.pret {
+  font-size: 18px;
+  color: #a1887f;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #b71c1c;
+}
+.card-meniu {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #2c3e50;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 320px;
+  margin: 20px auto;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card-meniu:hover {
+  transform: scale(1.02);
+}
+
+.card-meniu h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #e67e22;
+}
+
+.card-meniu .buton-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-meniu button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e74c3c;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .buton-container button {
+    width: 100px;
+    height: 100px;
+    font-size: 14px;
+  }
+
+  .store-buttons img {
+    width: 120px;
+  }
+  img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+}
+
+button {
+  font-size: 16px;
+  padding: 12px 20px;
+}
+/* Resetări de bază */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.continut {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #d62828;
+}
+
+.subtitlu,
+.livrare {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Secțiuni principale */
+main section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Butoane */
+.buton-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.buton-container a {
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #ff914d;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s;
+}
+
+.buton-container a:hover {
+  background-color: #e86c19;
+}
+
+/* Magazin aplicații */
+.store-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.store-buttons img {
+  height: 50px;
+  transition: transform 0.3s;
+}
+
+.store-buttons img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .buton-container a {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .store-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
