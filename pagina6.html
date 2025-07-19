@@ -1,15 +1,107 @@
-<DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ro">
 <head>
-    <meta charset="UTF-8">
-    <h1>🍰CLATITE</h1>
-<h3>Clatite cu cirese</h3>
-<h3>Pret- 12 RON</h3>
-<img src="https://www.la-doi-pasi.ro/var/uploads/recipes_gallery/articol_clatite_3.jpg" alt="">
-<h3>Clatite cu ciocolata</h3>
-<h3>Pret- 15 RON</h3>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyzAq7s6JI-m5djrH6_BZxzrT9bWcXny8niQ&s" alt="">
-<h3>Clatite cu dulceata</h3>
-<h3>Pret- 14,99</h3>
-<img src="https://teopizza.ro/wp-content/uploads/2023/04/14.png" alt="">
-   <button onclick="location.href='index.html'">Pagina principala
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clătite</title>
+  <style>
+    /* Reset margin și padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff8e1;
+      color: #5d4037;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 500px;
+      width: 100%;
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 15px;
+      font-size: 2.8rem;
+    }
+
+    h3 {
+      margin-top: 10px;
+      font-weight: normal;
+      font-size: 1.2rem;
+      color: #6d4c41;
+    }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      margin: 15px 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    button {
+      margin-top: 25px;
+      background-color: #a1887f;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #6d4c41;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .container {
+        padding: 15px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h3 {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🍰 CLĂTITE</h1>
+
+    <h3>Clătite cu cireșe</h3>
+    <h3>Preț - 12 RON</h3>
+    <img src="https://www.la-doi-pasi.ro/var/uploads/recipes_gallery/articol_clatite_3.jpg" alt="Clătite cu cireșe" />
+
+    <h3>Clătite cu ciocolată</h3>
+    <h3>Preț - 15 RON</h3>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyzAq7s6JI-m5djrH6_BZxzrT9bWcXny8niQ&s" alt="Clătite cu ciocolată" />
+
+    <h3>Clătite cu dulceață</h3>
+    <h3>Preț - 14,99 RON</h3>
+    <img src="https://teopizza.ro/wp-content/uploads/2023/04/14.png" alt="Clătite cu dulceață" />
+
+    <button onclick="location.href='index.html'">Pagina principală</button>
+  </div>
+</body>
+</html>
